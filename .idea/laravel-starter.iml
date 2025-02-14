@@ -136,6 +136,8 @@
       <excludeFolder url="file://$MODULE_DIR$/laravel-example/vendor/vlucas/phpdotenv" />
       <excludeFolder url="file://$MODULE_DIR$/laravel-example/vendor/voku/portable-ascii" />
       <excludeFolder url="file://$MODULE_DIR$/laravel-example/vendor/webmozart/assert" />
+      <excludeFolder url="file://$MODULE_DIR$/laravel-example/vendor/barryvdh/laravel-debugbar" />
+      <excludeFolder url="file://$MODULE_DIR$/laravel-example/vendor/maximebf/debugbar" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

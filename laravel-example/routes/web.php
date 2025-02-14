@@ -7,14 +7,12 @@ use App\Models\Job;
 
 
 Route::get('/', function () {
-    $jobs = Job::all();
-    dd($jobs);
-
-//    return view('home');
+    return view('home');
 });
 
 Route::get('/jobs', function (){
-    return view('jobs', ["jobs" => Job::all()]);
+    $jobs = Job::all(); //Job::with('employer')->get(); // Eager loading, to prevent n+1 problem (get all employers in one qeury)
+    return view('jobs', ["jobs" => $jobs]);
 });
 
 Route::get('/jobs/{id}', function ($id){
